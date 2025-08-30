@@ -2,8 +2,8 @@ pluginManagement {
     repositories {
         google {
             content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("com.android.*")
+                includeGroupByRegex("com.google.*")
                 includeGroupByRegex("androidx.*")
             }
         }
@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "App_habitos"
 include(":app")
+include(":core")
+include(":data")
+include(":feature:habits")
